@@ -18,12 +18,24 @@
 
 .gallery {
     display: inherit;
+    background: #777;
+    width: calc(50% - 20px);
+    float: left;
+    padding: 10px;
 }
 .history {
     display: inherit;
+    background: #aaa;
+    width: calc(50% - 20px);
+    float: right;
+    padding: 10px;
 }
 .catalog {
+    clear: both;
     display: inherit;
+    background: #bbb;
+    width: calc(100% - 20px); ;
+    padding: 10px;
 }
 
 @media only screen and (min-width : 0px) and (max-width : 768px) {
@@ -46,7 +58,7 @@
         margin-top: 40px;
     }
     .panel-1 {
-        width: 250px;
+        width: 200px;
     }
     .panel-2 {
         flex-grow: 1;
