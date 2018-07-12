@@ -1,0 +1,127 @@
+.container-1 {
+    margin: 0px;
+    display: flex;   
+}
+.panel-1 {
+    background: #eee;
+    padding: 10px;
+}
+.panel-2 {
+    background: #ccc;
+    padding: 10px;
+}
+.panel-3 {
+    background: #ddd;
+    padding: 10px;
+}
+
+
+.gallery {
+    display: inherit;
+}
+.history {
+    display: inherit;
+}
+.catalog {
+    display: inherit;
+}
+
+@media only screen and (min-width : 0px) and (max-width : 768px) {
+    .container-1 {
+        flex-direction: column;
+    }
+    .panel-1 {
+        order: 1;
+    }
+    .panel-2 {
+        order: 0;
+    }
+    .panel-3 {
+        order: 1;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1280px) {
+    .container-1 {
+        margin-top: 40px;
+    }
+    .panel-1 {
+        width: 250px;
+    }
+    .panel-2 {
+        flex-grow: 1;
+    }
+    .panel-3 {
+        margin-top: -40px;
+        width: 100%;
+        align-self: flex-start; 
+        height: 20px;
+        position: absolute;
+    }
+}
+
+@media only screen and (min-width : 1280px) {
+    .panel-1 {
+        background: #eee;
+        padding: 10px;
+        width: 250px;
+        order: 0;
+    }
+    .panel-2 {
+        background: #ccc;
+        padding: 10px;
+        flex-grow: 1;
+        order: 1;
+    }
+    .panel-3 {
+        background: #ddd;
+        padding: 10px;
+        width: 250px;
+        order: 2;
+    }
+}
+
+
+
+/* IGNORE THE STYLES BELOW */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+body:before {
+    background: #fff;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+@media only screen and (min-width : 0px) and (max-width : 768px) {
+    body:before {
+        content: "0 - 768px";
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    body:before {
+        content: "768px - 1024px";
+   }
+}
+@media only screen and (min-width : 1024px) and (max-width : 1280px) {
+    body:before {
+        content: "1024px - 1280px";
+   }
+}
+@media only screen and (min-width : 1280px) and (max-width : 1440px) {
+    body:before {
+        content: "1280px - 1440px";
+   }
+}
+@media only screen and (min-width : 1440px) and (max-width : 1680px) {
+    body:before {
+        content: "1440px - 1680px";
+   }
+}
+@media only screen and (min-width : 1680px) and (max-width : 1920px) {
+    body:before {
+        content: "1680px - 1920px";
+   }
+}
