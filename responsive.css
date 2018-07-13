@@ -51,7 +51,6 @@
         order: 0;
     }
     .panel-3 {
-        height: 20px;
         order: 1;
         width: 100%;
     }
@@ -81,16 +80,16 @@
         order: 0;
     }
     .panel-3 {
-        height: 40px;
+        /* height: 40px; */
         order: 1;
         width: 100%;
     }
     .gallery {
-        height: 240px;
+        height: 200px;
         width: 40%;
     }
     .history {
-        height: 240px;
+        height: 200px;
         width: 60%;
     }
     .catalog {
@@ -211,12 +210,12 @@
         width: 280px;
     }
     .gallery {
-        height: 435px;
-        width: 580px;
+        height: 350px;
+        width: 40%;
     }
     .history {
-        height: 435px;
-        width: 460px;
+        height: 350px;
+        width: 60%;
     }
     .catalog {
         height: 400px;
@@ -240,12 +239,12 @@
         width: 280px;
     }
     .gallery {
-        height: 480px;
-        width: 640px;
+        height: 400px;
+        width: 40%;
     }
     .history {
-        height: 480px;
-        width: 640px;
+        height: 400px;
+        width: 60%;
     }
     .catalog {
         height: 400px;
@@ -268,8 +267,11 @@
 
 /* IGNORE THE STYLES BELOW */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+    text-transform: uppercase;
+    color: #555;
 }
 body:before {
     background: #fff;
