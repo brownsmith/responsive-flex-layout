@@ -17,25 +17,25 @@
     padding: 10px;
 }
 
+.gallery,
+.history,
+.catalog {
+    display: inherit;
+    padding: 10px;
+}
 .gallery {
     background: #777;
-    display: inherit;
     float: left;
-    padding: 10px;
     width: calc(50% - 20px);
 }
 .history {
     background: #aaa;
-    display: inherit;
     float: right;
-    padding: 10px;
     width: calc(50% - 20px);
 }
 .catalog {
     background: #bbb;
     clear: both;
-    display: inherit;
-    padding: 10px;
     width: calc(100% - 20px); ;
 }
 
