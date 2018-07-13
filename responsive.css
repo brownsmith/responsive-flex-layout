@@ -26,17 +26,17 @@
 .gallery {
     background: #777;
     float: left;
-    width: calc(50% - 20px);
+    width: 50%;
 }
 .history {
     background: #aaa;
     float: right;
-    width: calc(50% - 20px);
+    width: 50%;
 }
 .catalog {
     background: #bbb;
     clear: both;
-    width: calc(100% - 20px); ;
+    width: 100%;
 }
 
 @media only screen and (min-width : 0px) and (max-width : 768px) {
@@ -53,15 +53,15 @@
     .panel-3 {
         height: 20px;
         order: 1;
-        width: calc(100% - 20px);
+        width: 100%;
     }
     .gallery {
         height: 200px;
-        width: calc(40% - 20px);
+        width: 40%;
     }
     .history {
         height: 200px;
-        width: calc(60% - 20px);
+        width: 60%;
     }
     .catalog {
         height: 340px;
@@ -81,17 +81,17 @@
         order: 0;
     }
     .panel-3 {
-        height: 20px;
+        height: 40px;
         order: 1;
-        width: calc(100% - 20px);
+        width: 100%;
     }
     .gallery {
-        height: 300px;
-        width: 468px;
+        height: 240px;
+        width: 40%;
     }
     .history {
-        height: 300px;
-        width: calc(100% - 508px);
+        height: 240px;
+        width: 60%;
     }
     .catalog {
         height: 340px;
@@ -112,18 +112,18 @@
     }
     .panel-3 {
         align-self: flex-start;
-        height: 50px;
+        height: 70px;
         margin-top: -70px;
-        position: absolute;        
-        width: calc(100% - 20px);
+        position: absolute;
+        width: 100%;
     }
     .gallery {
-        height: 300px;
-        width: 468px;
+        height: 240px;
+        width: 40%;
     }
     .history {
-        height: 300px;
-        width: calc(100% - 508px);
+        height: 240px;
+        width: 60%;
     }
     .catalog {
         height: 318px;
@@ -144,18 +144,18 @@
     }
     .panel-3 {
         align-self: flex-start;
-        height: 50px;
+        height: 70px;
         margin-top: -70px;
         position: absolute;
-        width: calc(100% - 20px);
+        width: 100%;
     }
     .gallery {
         height: 300px;
-        width: 468px;
+        width: 40%;
     }
     .history {
         height: 300px;
-        width: calc(100% - 508px);
+        width: 60%;
     }
     .catalog {
         height: 318px;
@@ -176,18 +176,18 @@
     }
     .panel-3 {
         align-self: flex-start;
-        height: 50px;
+        height: 70px;
         margin-top: -70px;
         position: absolute;
-        width: calc(100% - 20px);
+        width: 100%;
     }
     .gallery {
         height: 350px;
-        width: 550px;
+        width: 40%;
     }
     .history {
         height: 350px;
-        width: calc(100% - 590px);
+        width: 60%;
     }
     .catalog {
         height: 318px;
